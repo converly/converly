@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Converly &#8212; Agentes de IA y voz, automatizaciones y desarrollo a medida para empresas">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b152c"/>
+      <stop offset="55%" stop-color="#0f1f45"/>
+      <stop offset="100%" stop-color="#06101f"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#009ef0"/>
+      <stop offset="45%" stop-color="#1e7bff"/>
+      <stop offset="100%" stop-color="#0051ff"/>
+    </linearGradient>
+    <linearGradient id="logoFill" x1="45.74" y1="457.85" x2="552.73" y2="193.65" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009ef0"/>
+      <stop offset="0.34" stop-color="#009bf0"/>
+      <stop offset="0.52" stop-color="#0071d7"/>
+      <stop offset="0.79" stop-color="#0046bc"/>
+      <stop offset="1" stop-color="#003fb8"/>
+    </linearGradient>
+    <linearGradient id="wordGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00fbfd"/>
+      <stop offset="45%" stop-color="#4da4ff"/>
+      <stop offset="100%" stop-color="#1e7bff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="34%" r="46%">
+      <stop offset="0%" stop-color="#1e7bff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1e7bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="72%" cy="78%" r="40%">
+      <stop offset="0%" stop-color="#00c2ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00c2ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#glow)"/>
+  <rect width="1280" height="420" fill="url(#glowCyan)"/>
+
+  <g fill="#4da4ff" fill-opacity="0.06">
+    <circle cx="70" cy="360" r="1.6"/><circle cx="110" cy="360" r="1.6"/><circle cx="150" cy="360" r="1.6"/>
+    <circle cx="70" cy="392" r="1.6"/><circle cx="110" cy="392" r="1.6"/><circle cx="150" cy="392" r="1.6"/>
+    <circle cx="1210" cy="40" r="1.6"/><circle cx="1178" cy="40" r="1.6"/><circle cx="1146" cy="40" r="1.6"/>
+    <circle cx="1210" cy="72" r="1.6"/><circle cx="1178" cy="72" r="1.6"/><circle cx="1146" cy="72" r="1.6"/>
+  </g>
+
+  <path d="M820 40 C940 90 980 170 940 240 C900 310 780 330 760 400" fill="none" stroke="#1e7bff" stroke-opacity="0.24" stroke-width="2"/>
+  <path d="M900 6 C1040 70 1080 180 1020 270 C960 350 860 372 850 430" fill="none" stroke="#4da4ff" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M1120 -20 C1200 80 1220 190 1150 290 C1090 372 1000 398 980 452" fill="none" stroke="#0051ff" stroke-opacity="0.2" stroke-width="2"/>
+
+  <g transform="translate(1088,150)">
+    <circle r="52" fill="none" stroke="#4da4ff" stroke-opacity="0.16" stroke-width="1.5"/>
+    <circle r="32" fill="none" stroke="#4da4ff" stroke-opacity="0.28" stroke-width="1.5"/>
+    <circle r="12" fill="url(#brand)"/>
+    <circle r="12" fill="none" stroke="#00fbfd" stroke-opacity="0.6" stroke-width="1.5">
+      <animate attributeName="r" values="12;58;12" dur="3.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.6;1" keySplines="0.2 0 0.2 1;0.4 0 0.6 1"/>
+      <animate attributeName="stroke-opacity" values="0.6;0;0.6" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.6;1"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      <circle cx="52" cy="0" r="4" fill="#00fbfd"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="14s" repeatCount="indefinite"/>
+      <circle cx="32" cy="0" r="3" fill="#4da4ff"/>
+    </g>
+  </g>
+
+  <g transform="translate(958,318)">
+    <rect x="0"   y="-8"  width="6" height="16" rx="3" fill="#4da4ff" opacity="0.85"><animate attributeName="height" values="16;42;16" dur="1.3s" begin="0s"    repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="y" values="-8;-21;-8" dur="1.3s" begin="0s"    repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></rect>
+    <rect x="14"  y="-14" width="6" height="28" rx="3" fill="#1e7bff" opacity="0.9"> <animate attributeName="height" values="28;58;28" dur="1.3s" begin="0.16s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="y" values="-14;-29;-14" dur="1.3s" begin="0.16s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></rect>
+    <rect x="28"  y="-24" width="6" height="48" rx="3" fill="#00c2ff" opacity="0.95"><animate attributeName="height" values="48;80;48" dur="1.3s" begin="0.32s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="y" values="-24;-40;-24" dur="1.3s" begin="0.32s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></rect>
+    <rect x="42"  y="-30" width="6" height="60" rx="3" fill="#00fbfd" opacity="1">   <animate attributeName="height" values="60;96;60" dur="1.3s" begin="0.48s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="y" values="-30;-48;-30" dur="1.3s" begin="0.48s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></rect>
+    <rect x="56"  y="-24" width="6" height="48" rx="3" fill="#00c2ff" opacity="0.95"><animate attributeName="height" values="48;80;48" dur="1.3s" begin="0.64s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="y" values="-24;-40;-24" dur="1.3s" begin="0.64s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></rect>
+    <rect x="70"  y="-14" width="6" height="28" rx="3" fill="#1e7bff" opacity="0.9"> <animate attributeName="height" values="28;58;28" dur="1.3s" begin="0.8s"  repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="y" values="-14;-29;-14" dur="1.3s" begin="0.8s"  repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></rect>
+    <rect x="84"  y="-8"  width="6" height="16" rx="3" fill="#4da4ff" opacity="0.85"><animate attributeName="height" values="16;42;16" dur="1.3s" begin="0.96s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="y" values="-8;-21;-8" dur="1.3s" begin="0.96s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></rect>
+  </g>
+
+  <g transform="translate(80,132) scale(0.245)">
+    <path fill="url(#logoFill)" d="M569.91,96.58c-1.44-2.54-5.83-6.71-8.67-9.65-9.91-10.27-19.92-20.5-31.02-29.47-26.8-23.64-57.52-40.2-92.77-49.72-95.87-28.78-209.3,25.6-249.4,113.3-4.59,8.82-8.3,18.21-15.96,24.77-7.61,6.75-18.98,6.7-28.51,7.59-9.91.92-19.79,3.46-29.06,7.89-28.56,12.72-44.91,43.58-43.27,74.04.19,7.97,2.21,17.42-2.55,24.26-2.93,4.57-8.51,7.69-13.18,10.59C4.58,302.88-16.52,374.03,14.49,435.61c18.49,36.95,55.27,63.21,93.86,69.47,22.25,3.45,44.58,3.05,66.28,2.83,66.49.58,130.86-.42,211.27-.23,37.61-.3,73.34.42,111.26-.76,12.42-.45,24.91-.46,37.21-2.4,39.95-6.06,75.88-32.34,100.93-61.87,11.96-14.31,22.08-30.2,30.99-46.24,4.63-7.89,7.24-16.62-.4-23.66-4.94-4.68-11.2-8.29-16.86-12.12-13.88-8.99-27.98-18.51-41.57-28.23-9.77-6.75-19.58-13.33-29.11-20.39-9.94-7.58-18.13-10.08-28.66-1.52-11.14,9-22.66,17.77-35.26,24.69-15.83,8.08-32.74,14.87-49.85,19.16-17.25,4.27-35.15,3.93-52.77,3-10.15-.63-20.39-1.69-30.06-5.01-31.83-11.26-54.44-43.24-56.98-76.54-3.02-35.87,17.36-70.58,49.4-86.48,19.63-9.06,42.47-13.09,63.69-7.33,9.57,2.47,18.75,6.31,27.43,11.06,4.15,2.25,8.43,4.93,11.94,7.08,3.77,2.31,6.59,3.8,8.75,3.59,1.87-.12,3.32-1.65,4.57-3.15,13.42-16.59,53.63-66.36,75.23-93.1,3.72-4.86,6.49-6.69,4.19-10.77l-.05-.09Z"/>
+  </g>
+
+  <text x="292" y="168" fill="#ffffff" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-1">Converly</text>
+  <text x="295" y="208" fill="#c5d0ef" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="500">Agentes de voz &#183; Automatizaciones &#183; Desarrollo a medida</text>
+
+  <text x="295" y="252" fill="#7f90b8" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18">Pensado para</text>
+  <g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="url(#wordGrad)">
+    <text x="410" y="252">Restaurantes<animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.22;0.25;0.97;1" values="1;1;0;0;1"/></text>
+    <text x="410" y="252">Cl&#237;nicas y salud<animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.25;0.27;0.47;0.5;1" values="0;0;1;1;0;0"/></text>
+    <text x="410" y="252">Ecommerce<animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.5;0.52;0.72;0.75;1" values="0;0;1;1;0;0"/></text>
+    <text x="410" y="252">Inmobiliarias<animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.75;0.77;0.97;1" values="0;0;1;1;0"/></text>
+  </g>
+
+  <rect x="295" y="270" width="150" height="4" rx="2" fill="url(#brand)"/>
+
+  <circle cx="301" cy="309" r="4.5" fill="#00d26a">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="315" y="314" fill="#7f90b8" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15">Barcelona &#183; Espa&#241;a &#8212; converly.es &#183; Primera auditor&#237;a gratuita</text>
+</svg>

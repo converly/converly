@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="24" viewBox="0 0 880 24" fill="none" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="line" x1="0" y1="12" x2="880" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e7bff" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#1e7bff" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#0051ff" stop-opacity="0.9"/>
+      <stop offset="0.8" stop-color="#1e7bff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#1e7bff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect y="11" width="880" height="2" rx="1" fill="url(#line)"/>
+  <circle cx="440" cy="12" r="6.5" fill="none" stroke="#1e7bff" stroke-opacity="0.5" stroke-width="1.2">
+    <animate attributeName="r" values="4;10;4" dur="3s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+    <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+  </circle>
+  <circle cx="440" cy="12" r="3.5" fill="#1e7bff"/>
+</svg>
